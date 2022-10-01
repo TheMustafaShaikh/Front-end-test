@@ -1,0 +1,70 @@
+.text{
+    @apply text-[#240D57] text-[64px] font-bold text-right leading-none;
+}
+
+.snapchat-text{
+    @apply text-[#240D57] text-[64px] font-bold text-right text-transparent bg-clip-text bg-gradient-to-br to-[#8456EC] from-[#E87BF8] leading-none;
+}
+
+.content{
+    @apply text-[#4F4F4F] pt-5 text-[24px] font-extralight max-w-[521px] text-right;
+}
+.main-home{
+    @apply p-10 flex justify-around items-center flex-wrap;
+}
+.main-content{
+    @apply text-right;
+}
+.sm-button{
+    @apply hidden;
+}
+
+@media only screen and (max-width: 1135px){
+    .main-home{
+        @apply p-10 flex justify-around items-center flex-col-reverse flex-wrap;
+    }
+    .content{
+        @apply text-[#4F4F4F] pt-5 text-[24px] font-extralight max-w-[521px] text-center;
+    }
+    .main-content{
+        @apply text-center;
+    }
+    .text{
+        @apply text-[#240D57] text-[64px] font-bold text-center leading-none;
+    }
+    
+    .snapchat-text{
+        @apply text-[#240D57] text-[64px] font-bold text-center text-transparent bg-clip-text bg-gradient-to-br to-[#8456EC] from-[#E87BF8] leading-none;
+    }
+    .lg-button{
+        @apply hidden;
+    }
+    .sm-button{
+        @apply block;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    .main-home{
+        @apply p-10 flex justify-around items-center flex-col-reverse flex-wrap;
+    }
+    .content{
+        @apply text-[#4F4F4F] pt-5 text-[16px] font-extralight max-w-[321px] text-center;
+    }
+    .main-content{
+        @apply text-center;
+    }
+    .text{
+        @apply text-[#240D57] text-[36px] font-bold text-center leading-none;
+    }
+    .snapchat-text{
+        @apply text-[#240D57] text-[36px] font-bold text-center text-transparent bg-clip-text bg-gradient-to-br to-[#8456EC] from-[#E87BF8] leading-none;
+    }
+    .lg-button{
+        @apply hidden;
+    }
+    .sm-button{
+        @apply block;
+    }
+}

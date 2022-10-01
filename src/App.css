@@ -1,10 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+body{
+  @apply bg-[#F6F2FF];
 }
 
 @media (prefers-reduced-motion: no-preference) {

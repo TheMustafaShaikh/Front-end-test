@@ -1,0 +1,3 @@
+.heading-event{
+    @apply text-[#240D57] text-[48px] font-bold text-center leading-none;
+}

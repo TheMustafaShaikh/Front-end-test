@@ -1,0 +1,19 @@
+.input-custom{
+    @apply p-[5px] w-[500px] h-[40px] rounded-lg;
+}
+.label{
+    @apply text-[#240D57] font-bold m-[2px] text-left;
+}
+
+.main-input{
+    @apply m-2;
+}
+
+@media only screen and (max-width: 800px){
+    .input-custom{
+        @apply w-[300px];
+    }
+    .label{
+        @apply text-center;
+    }
+}

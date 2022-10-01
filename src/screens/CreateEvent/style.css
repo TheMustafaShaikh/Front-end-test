@@ -1,0 +1,7 @@
+.heading{
+     @apply text-[#240D57] text-[64px] font-bold text-center text-transparent bg-clip-text bg-gradient-to-br to-[#8456EC] from-[#E87BF8] leading-none;
+}
+.thumbs-up{
+    @apply text-[100px] origin-bottom -rotate-12 ;
+}
+
